@@ -63,6 +63,8 @@ train_aucall = 0
 test_aucall = 0
 
 '''三类不同特征选择方法'''
+#   ceshi
+
 # # 3.1.1利用方差进行特征选择,基于Filter的方法需要指定参数的大小
 # from sklearn.feature_selection import VarianceThreshold
 # VT = VarianceThreshold(threshold=0.01)  # origin(0.005)
